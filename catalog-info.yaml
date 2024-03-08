@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: uk-modulus-checking
+  title: uk-modulus-checking
+  description: ""
+  annotations:
+    backstage.io/view-url: ""
+    backstage.io/source-location: url:https://github.com/aon-coverwallet/uk-modulus-checking
+    coverwallet.com.com/tier: "3"
+  tags: []
+  links: []
+spec:
+  type: service
+  owner: europe
+  lifecycle: production
+  dependsOn: []
